@@ -85,10 +85,10 @@
             <version>1.2.3</version>
         </dependency>
         <!--mongodb-->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-data-mongodb</artifactId>
-        </dependency>
+        <!--<dependency>-->
+            <!--<groupId>org.springframework.boot</groupId>-->
+            <!--<artifactId>spring-boot-starter-data-mongodb</artifactId>-->
+        <!--</dependency>-->
         <!--@Data注解依赖-->
         <dependency>
             <groupId>org.projectlombok</groupId>
