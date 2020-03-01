@@ -23,7 +23,7 @@ public class UserServcieImpl implements UserService {
     @Autowired
     UserMapper userMapper;
 
-    @SuppressWarnings("AlibabaCollectionInitShouldAssignCapacity")
+
     @Override
     public Map<String,Object> getAll(UserEntity entity) {
         Page page= PageHelper.startPage(entity.getPage(),entity.getSize());
