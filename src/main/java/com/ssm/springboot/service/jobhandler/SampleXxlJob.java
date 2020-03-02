@@ -17,6 +17,8 @@ import java.net.URL;
 import java.util.concurrent.TimeUnit;
 
 /**
+ * 业务逻辑类
+ *
  * XxlJob开发示例（Bean模式）
  *
  * 开发步骤：
