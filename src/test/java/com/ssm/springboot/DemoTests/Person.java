@@ -1,4 +1,4 @@
-package com.ssm.springboot;
+package com.ssm.springboot.DemoTests;
 
 import java.io.Serializable;
 import java.util.Objects;
