@@ -103,6 +103,15 @@
             <version>2.2.0-SNAPSHOT</version>
             <scope>compile</scope>
         </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.jsoup/jsoup -->
+        <!--爬取数据  HTML解析器-->
+        <dependency>
+            <groupId>org.jsoup</groupId>
+            <artifactId>jsoup</artifactId>
+            <version>1.11.3</version>
+        </dependency>
+
     </dependencies>
 
     <build>
