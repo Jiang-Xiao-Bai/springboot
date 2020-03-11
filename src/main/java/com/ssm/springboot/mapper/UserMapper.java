@@ -7,7 +7,9 @@ import java.util.List;
 
 @Mapper
 public interface UserMapper {
-    public List<UserEntity> getAll(UserEntity entity);
 
-    public int addImg(UserEntity entity);
+    List<UserEntity> getAll(UserEntity entity);
+
+    boolean addUser(UserEntity entity);
+
 }

@@ -7,8 +7,10 @@
         select * from `user`
     </select>
 
-    <insert id="addImg" parameterType="com.ssm.springboot.entity.UserEntity">
-        insert `user` into img=#{img}
+    <insert id="addUser" parameterType="com.ssm.springboot.entity.UserEntity">
+        insert  into `user` (id,user_name,user_sex,user_age,id_card,phone,birthday,blood_type) values
+        (#{id},#{userName},#{userSex},#{userAge},#{idCard},#{phone},#{birthday},#{bloodType});
     </insert>
+
 
 </mapper>

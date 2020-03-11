@@ -29,8 +29,8 @@ public class RedisController {
     public boolean redisset(String key,String value){
         UserEntity userEntity =new UserEntity();
         userEntity.setId(Integer.valueOf(1));
-        userEntity.setName("zhangsan");
-        userEntity.setAge(Integer.valueOf(20));
+        userEntity.setUserName("张三");
+        userEntity.setUserAge(20+"岁");
 
 //        return redisUtil.set(key,userEntity,ExpireTime);
 
