@@ -20,7 +20,7 @@ import java.util.Map;
 
 
 @RestController
-@RequestMapping("/test")
+@RequestMapping("/helloController")
 public class HelloController {
 
     @Autowired
