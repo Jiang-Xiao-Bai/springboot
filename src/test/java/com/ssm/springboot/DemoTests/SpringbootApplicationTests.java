@@ -1,6 +1,7 @@
 package com.ssm.springboot.DemoTests;
 
 
+import com.ssm.springboot.utils.StringUtils;
 import org.junit.Test;
 
 import java.io.*;
@@ -195,7 +196,12 @@ public class SpringbootApplicationTests {
 
     }
 
+    private static void stringUtils(){
+        String str="办公时间：周一至周四(09:00-12:00,13:00-17:00)周五(09:00-12:00,13:00-15:00)介绍：广州南沙政务服务中心挂牌成立于2007年12月27日，是南沙管委会、区委、区政府设立的集中政务服务，整合各部门资源的政务服务综合平台。以“便民、高效、廉洁、规范”为宗旨，对外提供“一站式”办公。推行“一条龙”政务服务。大楼办公面积11700平方米，共五层，已进驻了所有具有行政审批业务的职能部门以及海关、检验检疫等垂直单位共36个，业务受理窗口68个。共设一个主中心（区政务服务中心，也是自贸区综合服务大厅），9个分中心（9个镇（街）政务服务中心）。中心还设立监察室及电子监控室，对行政审批全流程进行监控，受理及处理群众关于行政审批效能方面投诉。我区现设一个主中心，10个分中心（含9个镇街政务中心及区人力资源和社会保障局分中心），29个便民服务站。中心设立监察室及电子监控室";
+        System.out.println(StringUtils.substringBefore(str,"介"));
+    }
+
     public static void main(String[] args) {
-        calender();
+        stringUtils();
     }
 }
