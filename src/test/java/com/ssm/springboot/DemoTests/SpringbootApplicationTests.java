@@ -176,7 +176,7 @@ public class SpringbootApplicationTests {
         DateTimeFormatter.ISO_DATE_TIME,
         DateTimeFormatter.ofLocalizedDateTime(FormatStyle.FULL,FormatStyle.MEDIUM),
         DateTimeFormatter.ofLocalizedTime(FormatStyle.LONG),
-        DateTimeFormatter.ofPattern("Gyyyy%%MM%%dd HH:mm:ss")
+        DateTimeFormatter.ofPattern("Gyyyy-MM-dd HH:mm:ss")
         };
         LocalDateTime date=LocalDateTime.now();
         for (int i=0;i<formatters.length;i++){
@@ -196,9 +196,6 @@ public class SpringbootApplicationTests {
     }
 
     public static void main(String[] args) {
-        dayYear();
-        while (true){
-
-        }
+        calender();
     }
 }
