@@ -105,6 +105,13 @@
             <scope>compile</scope>
         </dependency>
 
+        <!--hutool工具使用-->
+        <dependency>
+            <groupId>cn.hutool</groupId>
+            <artifactId>hutool-all</artifactId>
+            <version>5.2.3</version>
+        </dependency>
+
         <!-- https://mvnrepository.com/artifact/org.jsoup/jsoup -->
         <!--爬取数据  HTML解析器-->
         <dependency>
