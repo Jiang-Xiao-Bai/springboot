@@ -117,7 +117,7 @@ public class SampleXxlJob extends AreaCodeList {
         map.put(2,"O型");
         map.put(3,"AB型");
         map.put(4,"HR阴性型");
-        for (int i = 0; i < 50000; i++) {
+        for (int i = 0; i < 50; i++) {
             String idCard=autoIdCardRedom.generate();
             String birthdayYear=idCard.substring(6,10);
             String birthdayMonth=idCard.substring(10,12);
