@@ -1,8 +1,7 @@
 package com.ssm.springboot.DemoTests;
 
 
-import com.ssm.springboot.utils.StringUtils;
-import org.junit.Test;
+import org.apache.commons.lang3.StringUtils;
 
 import java.io.*;
 import java.text.ParseException;
@@ -201,6 +200,5 @@ public class SpringbootApplicationTests {
     }
 
     public static void main(String[] args) {
-        stringUtils();
     }
 }
